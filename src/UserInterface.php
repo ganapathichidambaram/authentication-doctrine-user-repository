@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Tigerman55\AuthenticationDoctrineUserRepository;
+namespace ganapathichidambaram\AuthenticationDoctrineUserRepository;
 
 use Doctrine\ORM\PersistentCollection;
 

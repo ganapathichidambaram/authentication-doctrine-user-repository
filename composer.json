@@ -1,12 +1,12 @@
 {
-  "name": "tigerman55/authentication-doctrine-user-repository",
+  "name": "ganapathichidambaram/authentication-doctrine-user-repository",
   "description": "Mezzio Authentication Doctrine User Repository",
   "license": "BSD-3-Clause",
   "authors": [{
-    "name": "Joseph Koch"
+    "name": "Ganapathi Chidambaram"
   }],
   "require": {
-    "php": "^7.3",
+    "php": "^7.3 || ~8.0.0 || ~8.1.0",
     "mezzio/mezzio-authentication": "^1.1",
     "doctrine/orm": "^2.7"
   },
@@ -17,12 +17,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Tigerman55\\AuthenticationDoctrineUserRepository\\": "src/"
+      "ganapathichidambaram\\AuthenticationDoctrineUserRepository\\": "src/"
     }
   },
   "extra": {
     "laminas" : {
-      "config-provider": "Tigerman55\\AuthenticationDoctrineUserRepository\\ConfigProvider"
+      "config-provider": "ganapathichidambaram\\AuthenticationDoctrineUserRepository\\ConfigProvider"
     }
   },
   "scripts": {

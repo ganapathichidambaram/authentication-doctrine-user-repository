@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Tigerman55\AuthenticationDoctrineUserRepository;
+namespace ganapathichidambaram\AuthenticationDoctrineUserRepository;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Mezzio\Authentication\UserInterface;
 use Mezzio\Authentication\UserRepositoryInterface;
-use Tigerman55\AuthenticationDoctrineUserRepository\UserInterface as EntityUserInterface;
+use ganapathichidambaram\AuthenticationDoctrineUserRepository\UserInterface as EntityUserInterface;
 
 use function array_map;
 use function password_verify;
